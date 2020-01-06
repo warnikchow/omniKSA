@@ -7,11 +7,11 @@
 
 ### At a Glance: Speech Act/Intention-Related Datasets of WarnikChow
 
-- **한국어 비정형 텍스트 화행 분류 데이터셋: [3i4K](https://github.com/warnikchow/3i4k)** 
+- **한국어 비정형 텍스트 화행 분류 데이터셋: [3i4K](https://github.com/warnikchow/3i4k)**  (7 Classes, 61K Utterances)
 
-- **한국어 중의성 구문 음성 화행 분류 데이터셋: [ProSem](https://github.com/warnikchow/prosem)**
+- **한국어 중의성 구문 음성 화행 분류 데이터셋: [ProSem](https://github.com/warnikchow/prosem)** (7 Classes, 7K Speech Utterances)
 
-- **한국어 비정형 질문 및 요구 문장의 원활한 시맨틱 파싱을 위한 논항 추출 데이터셋: [SAE4K](https://github.com/warnikchow/sae4k)**
+- **한국어 비정형 질문 및 요구 문장의 원활한 시맨틱 파싱을 위한 논항 추출 데이터셋: [SAE4K](https://github.com/warnikchow/sae4k)** (50K Pairs)
 
 ## Speech Act
 
