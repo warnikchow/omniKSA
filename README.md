@@ -17,7 +17,7 @@
 
 ## Speech Act
 
-화행은 아직도 정의하기 어려운 개념이지만, 논의의 역사는 생각보다 오래되었습니다. 화용론(pragmatics)의 발전과 거의 맞닿아 있다고 볼 수 있을 것 같아요. 학교에서 배울 수 있는 화용론은 크게 함축(implication), 적합성 이론(relevance theory), 전제(presupposition), 화행(speech act), 지시(reference) 및 직시(deixis), 정보구조(information structure)로 이루어져 있고, 각 부분에서는 다음과 같은 내용들을 다루게 됩니다. 내용에 대한 부분은 제가 들었던 화용론 수업의 content를 참고했습니다. 박유경 선생님 최고 +_+
+화행은 아직도 정의하기 어려운 개념이지만, 논의의 역사는 생각보다 오래되었습니다. 화용론(pragmatics)의 발전과 거의 맞닿아 있다고 볼 수 있을 것 같아요. 학교에서 배울 수 있는 화용론은 크게 함축(implication), 적합성 이론(relevance theory), 전제(presupposition), 화행(speech act), 지시(reference) 및 직시(deixis), 정보구조(information structure)로 이루어져 있고, 각 부분에서는 다음과 같은 내용들을 다루게 됩니다. 내용에 대한 부분은 제가 들었던 화용론 수업의 content를 참고했습니다. **박유경 선생님 최고 +_+**
 
 - **함축** - 대화 함축과 상례 함축(Conversational/Conventional implicature), 그라이스/신-그라이스 함축(Gricean/neo-Gricean implicature), 대화 격률(Maxims of conversation), 어휘 화용론(Lexical pragmatics)
 
@@ -105,13 +105,33 @@ Searle은 이러한 speech act들 중 illocutionary act, 즉 언표내적 행위
 
 *내일 아침 여덟시에 나 좀 전화로 깨워주라*
 
-각각 문장 유형은 평서문, 의문문, 명령문이지만, 궁극적으로 원하는 것은 청자가 화자를 내일 아침에 전화로 깨워 주는 것입니다. 이 경우 세번째는 '명령문'이라는 문장 유형이 화행인 '요청'에 부합하는 직접 화행(direct speech act)이지만, 다른 두 경우는 각각 평서문과 의문문의 형식을 빌려 요청하는 간접 화행(indirect speech act)에 해당합니다. 이를 좀 더 복잡하게 말하면, 직접 화행은 문장의 형식이 언표내적 힘을 결정하는 것이고, 간접 화행에서는 그러하지 못합니다. Levinson은 이러한 관찰들로부터 문자적 힘 가설(literal force hypothesis)을 주창했는데, 그 핵심 내용은 화행에 따라 특정 문장 형식이 결정된다는 것이고, 나아가서 한 가지 언표내적 행위(illocutionary act)는 한 가지 문장 유형(clause type)에 대응된다는 것입니다. 좀 너무 나간 것 같은 느낌이 없지 않아 있지요. 저 역시 여전히, 형식은 형식이고 화행은 화행이며, 하나가 다른 하나를 결정하지는 않는다고 생각합니다. 이런 생각들을 바탕으로, Gazdar은 '한 가지 발화는 여러 화행을 의도할 수 있다', 그리고 '화행의 결정은 청자의 해석에 영향을 받는다'는 두 가지 argument로 Levinson을 반박했습니다. 이후 clause type, dialog act, communicative function 등을 이용해서도 설명할 예정이지만, 이 문제는 Levinson이 주장한 것처럼 단순히 1-1 mapping을 구축한다고 해결되는 문제가 아닌 것 같습니다.
+각각 문장 유형은 평서문, 의문문, 명령문이지만, 궁극적으로 원하는 것은 청자가 화자를 내일 아침에 전화로 깨워 주는 것입니다. 이 경우 세번째는 '명령문'이라는 문장 유형이 화행인 '요청'에 부합하는 직접 화행(direct speech act)이지만, 다른 두 경우는 각각 평서문과 의문문의 형식을 빌려 요청하는 간접 화행(indirect speech act)에 해당합니다. 이를 좀 더 복잡하게 말하면, 직접 화행은 문장의 형식이 언표내적 힘을 결정하는 것이고, 간접 화행에서는 그러하지 못합니다. 
 
-하지만 Levinson의 시도들이 의미가 없는 것은 아닙니다. 예컨대, 위에서 한국어의 예시로 설명했지만, 영어도 마찬가지로 어떤 것을 요청하는 데에는 다양한 수식어구들이 들어가곤 합니다. Searle의 경우 상례화(conventionalized) 경향으로 설명된 내용이지만, Levinson은 이를 체면 유지 전략(face-saving strategy) 및 체면 위협 행위(face-threatening act)의 개념을 도입하여 설명했습니다. 또한 그는 사회적 거리감(D; social distance), 청자가 화자에 대해 갖는 상대적 권위(P; relative power), 그리고 특정 문화에서의 지위의 절대적 순위(R; absolute ranking)라는 세 가지 요소를 도입하여 FTA-avoiding strategy 를 체계화했습니다. 즉, 체면을 심하게 위협하는 행위일수록 화자는 그 실효를 완화시키기 위해 공손한 책략을 써야 한다는 내용인데요, 생각해 보자면 밤 늦게 일을 부탁하는 경우 더 공손한 어투와 어미와 어휘를 써서 문서를 작성하는 것 등을 들 수 있겠습니다. 물론 그것을 수치화시키는 것은 계산화용론 등의 분야에서 더 잘 다룰 수 있는 것으로 보입니다. 또한 이로부터, 화행은 문화 변이가 상당하다는, 꽤나 당연한 결론을 얻을 수도 있습니다. 그런 것은 비슷한 syntax를 공유하지만 전혀 다른 공손성의 양상을 보이는 한국어와 일본어의 예시로부터도 알 수 있습니다. 일본에서 '괜찮습니다'는 강력한 거절의 의미라면서요...? 물론 언제까지고 이런 발화 양상이 유지된다는 보장도 없을 뿐더러 개인차도 심하고, 지역 편차도 있을 겁니다. 그게 화행 연구의 가장 어려운 점이지요. 
+Levinson은 이러한 관찰들로부터 문자적 힘 가설(literal force hypothesis)을 주창했는데, 그 핵심 내용은 화행에 따라 특정 문장 형식이 결정된다는 것이고, 나아가서 한 가지 언표내적 행위(illocutionary act)는 한 가지 문장 유형(clause type)에 대응된다는 것입니다. 좀 너무 나간 것 같은 느낌이 없지 않아 있지요. 저 역시 여전히, 형식은 형식이고 화행은 화행이며, 하나가 다른 하나를 결정하지는 않는다고 생각합니다. 이런 생각들을 바탕으로, Gazdar은 '한 가지 발화는 여러 화행을 의도할 수 있다', 그리고 '화행의 결정은 청자의 해석에 영향을 받는다'는 두 가지 argument로 Levinson을 반박했습니다. 이후 clause type, dialog act, communicative function 등을 이용해서도 설명할 예정이지만, 이 문제는 Levinson이 주장한 것처럼 단순히 1-1 mapping을 구축한다고 해결되는 문제가 아닌 것 같습니다.
+
+하지만 Levinson의 시도들이 의미가 없는 것은 아닙니다. 예컨대, 위에서 한국어의 예시로 설명했지만, 영어도 마찬가지로 어떤 것을 요청하는 데에는 다양한 수식어구들이 들어가곤 합니다. Searle의 경우 상례화(conventionalized) 경향으로 설명된 내용이지만, Levinson은 이를 체면 유지 전략(face-saving strategy) 및 체면 위협 행위(face-threatening act)의 개념을 도입하여 설명했습니다. 또한 그는 사회적 거리감(D; social distance), 청자가 화자에 대해 갖는 상대적 권위(P; relative power), 그리고 특정 문화에서의 지위의 절대적 순위(R; absolute ranking)라는 세 가지 요소를 도입하여 FTA-avoiding strategy 를 체계화했습니다. 즉, 체면을 심하게 위협하는 행위일수록 화자는 그 실효를 완화시키기 위해 공손한 책략을 써야 한다는 내용인데요, 생각해 보자면 밤 늦게 일을 부탁하는 경우 더 공손한 어투와 어미와 어휘를 써서 문서를 작성하는 것 등을 들 수 있겠습니다. 물론 그것을 수치화시키는 것은 계산화용론 등의 분야에서 더 잘 다룰 수 있는 것으로 보입니다. 
+
+나아가, 이로부터, 화행은 문화 변이가 상당하다는, 꽤나 당연한 결론을 얻을 수도 있습니다. 그런 것은 비슷한 syntax를 공유하지만 전혀 다른 공손성의 양상을 보이는 한국어와 일본어의 예시로부터도 알 수 있습니다. 일본에서 '괜찮습니다'는 강력한 거절의 의미라면서요...? 물론 언제까지고 이런 발화 양상이 유지된다는 보장도 없을 뿐더러 개인차도 심하고, 지역 편차도 있을 겁니다. 그게 화행 연구의 가장 어려운 점이지요. 좀 더 확실하게 접근할 방법이 있을까요?
 
 ### Portner - 형식 의미론적 접근
 
-그래서 이번엔 좀 더 확실한 접근법을 알아보겠습니다. 제가 제일 많이 이용한 접근 방식이기도 하고, 사실 이러한 해석에서 벗어나기도 쉽지 않을 만큼 문제를 추상화시켜둔 방법입니다. 바로 clause type을 화행의 관점에서 형식적으로 정의하는 것입니다. 
+Portner의 형식 의미론을 기반으로 한 접근은 제가 제일 많이 이용한 방식이기도 하고, 사실 이러한 해석에서 벗어나기도 쉽지 않을 만큼 문제를 추상화시켜둔 방법입니다. 바로 clause type을 화행의 관점에서 형식적으로 정의하는 것입니다. 일단 그러기 위해서는 clause type이 어떻게 유형화될 수 있는지 먼저 알아봐야 하겠습니다. 문장 유형은 결국 한국어로 따지면 종결 어미를 보는 것이고, 영어로 따지면 어두에 의문사가 오는 의문문(interrogative)인지 그렇지 않은 평서문(declarative)인지, 혹은 covert subject로 시작하는 명령문(imperative)인지 보는 것으로, 문법적으로 결정할 수 있는 굉장히 straightforward한 절차입니다. Portner은 각각이 다음과 같이 형식의미론적으로 정의될 수 있다고 정리합니다.
+
+- **평서문(declarative)**: Proposition (p)의 모음을 청자와 화자의 공통 지식(common ground, CG)에 더하는 과정. 이 경우 sentencial force는 assertion으로 정의
+
+- **의문문(interrogative)**: 일반적으로 질문 '그에 상응하는 답변의 집합'으로 정의될 수 있기 때문에 proposition (p)의 모음, 즉 set of propositions (q)으로 표현되는데, 이 질문의 모음을 청자와 화자가 공통적으로 해답을 얻고자 하는 문제의 모음 (question set, QS)에 더하는 과정. 이 때 asking이라는 conventional force는 해당 interrogative를 QS에 더하는 과정이 됨
+
+- **명령문(imperative)**: imperative로 표현할 수 있는 어떤 property (P)를 addressee의 to-do-list (TDL)에 더하는 과정. 좀 더 자세히, requiring이라는 conventional force가 addressee에게 부과되어야 한다는 것을 의미하며, 이것은 A를 require한다는 것(require_A)이, TDL function을 통해 imperative로 표현되는 P를 A에 관한 TDL에 더한다는 것이라고 표현할 수 있음. Imperative는 크게 세 가지의 subtype이 있는데, social authority에 기반한 order와 그렇지 않은(화자/청자가 benefit이 있는) request, 그리고 화자 자신의 TDL이 업데이트되는 permissions로 나눌 수 있음
+
+각각을 람다 캘큘러스를 이용하여 설명하면 더 좋겠지만, 형식의미론을 깊게 들어가면 너무나 어렵더라구요. 일단 Portner가 해당 논문에서 제시한 가설들을 마저 알아보겠습니다. 제가 좋아하는 결론이기도 한데, 결과적으로 말하고자 하는 바는 
+
+- Discourse context는, universal하게, 최소한 common ground, question set, 그리고 to-do-list를 포함하고 있음
+
+- Generalized update function인 F = "take a set of x's and another x, and add the new x to the set" (즉, x의 모음 X와 또다른 x에 대해, X에 x를 더하는 작업) 은 universal함
+
+- F를 제외한 다른 update function은 universal하지 않고 F가 preferred되는데, 그 이유는 F가 sentence의 force를 결정하는 데 사용될 수 있다면, 반드시 사용된다는 점에서 그러함 (이 점은 각주에서 Portner가 widening이라는 다른 update function을 이용해 exclamation을 설명한다는 점에서, 아주 완벽한 claim은 아닌 듯하긴 합니다)
+
+이러한 내용입니다. 깊게 들어가면 훨씬 어려운 내용이지만, 일단 저는 평서문, 의문문, 그리고 명령문이 가진 성질이 각각 statement, question, command라는 illocutionary act들을 설명하는 데에 유용하게 사용될 것이라고 기대하였고, 실제 한국어 의도파악 데이터셋 구축을 하는 데에 이를 활용해볼 수 있을 것이라는 생각을 하였습니다. 즉, 위에서 본 CG와 QS, 그리고 TDL을 화행을 결정하는 기준으로 사용하면 어떨까요? 이렇게 생각해 본다면, 어떤 다른 factor들을 생각해볼 수 있을 것이며, 이것보다 훨씬 더 자세하게 화행을 분류하는 기준으로는 어떤 것이 있을까요? 또 한국어라면, 다른 언어들, 특히 영어와 다른 어떤 특징을 텍스트 분류 과정에서 생각해볼 수 있을까요?
 
 ## Syntactic Ambiguity Resolution
 
