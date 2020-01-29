@@ -159,6 +159,18 @@ Portner과 비슷한 견지에서, Allwood는 communicative function이라는 �
 
 각 세분화된 functions는 confirm, accept 등의 특정한 dialog act를 나타내고, 그 앞의 숫자는 해당하는 세분화된 act들의 수를 의미합니다. 굉장히 방대하죠. 이에 따른 taxonomy 역시 해당 논문에서 제시하고 있습니다. 이에 기반한 DIT++ 태깅 역시 제공됩니다. 다만, DASML이나 DIT++ 모두, 상세한 annotation scheme이 장점이나 실제로 그것을 행하는 것에 시간적/금전적 부담이 들어가고, 언어 전문가들이 필요하며, class가 많아 각 카테고리 당 발화의 수가 충분히 보장되지 않을 수 있다는 단점이 있습니다. 또한, 현재의 SLU 시스템들에서 그렇게 많고 자세한 발화 태깅을 필요로 하지 않을 수 있고, 영어 기반의 주석 방식이므로 한국어에 적합하지 않을 수 있으며, 더욱이 goal-oriented task에서 필요로 하는 intent와 slot-filling 문제는 좀 더 구체적인 경우들을 필요로 하게 됩니다. 
 
+### 화행과 의도, 그리고 Intent
+
+여태까지는 화행에 대해 설명했습니다. 화행은 speech act이고, 때로는 dialog act로 불립니다. speech act 이든 dialog act이든, 어떤 특정한 목적이 있는(goal-oriented) 것이라기보다는, 인간과 인간, 혹은 인간과 기계 사이의 대화에서, 혹은 일반적인 발화 상황에서까지 발생할 수 있는 경우들을 모두 모델링하기 위한 유형 체계로, 특정 토픽에 제한되지 않는다는 공통적인 특징이 있습니다. 하지만 헷갈리게도, 종종 Intention이라는 표현은 speech act와 혼용되곤 합니다. 좀 더 자세히는, Allen의 Analyzing Intention in Utterances에서 알 수 있듯 speech act보다는 조금 더 구체적인 어떤 의도된 결과물을 지칭하기도 하고, speech act 정도로 일반화된 개념을 지칭하는 경우도 있습니다.
+
+이에 반해, intent라는 표현은 자연어 처리 분야, 특히 goal-oriented task에서 훨씬 많이 사용되는 표현입니다. 여기서의 '의도'는 좀 더 그 목적이 명확해요. 예컨대, '저기 있는 물건 좀 가져다 주세요'는 기본적으로 요청이지만, '심부름'이라는 intent를 가졌다고 할 수 있겠죠. 또, '내일 강변 cgv 세시 반에 겨울왕국 2 두자리 예약 부탁해요'는 비슷한 원리로 '예약'이라는 목적을 갖고 있다고 볼 수 있을 겁니다. 이러한 intent의 명명법은 물론 task에 따라 달라지게 됩니다. 이것이 스마트 비서가 아닌 검색 서비스라면, 그래서 사용자가 '지금 서울 비 오나?' 라고 묻는다면, 그 의도는 날씨에 대한 질문이 되겠지요.
+
+이 intent의 표현은 종종 다른 term들로 대체되기도 합니다. 화행에 대한 분류 자체에도 항상 논란이 있어왔던 만큼, 엔지니어링에 좀 더 가까운 intent identification이 그 명확한 term에 대한 약속이 없는 것은 어쩌면 당연한 것 같습니다. 대기업과 빅 그룹이 사용하면 공식 term이 되는 세상이지요 ㅎㅎ 어쨌든, 일반적으로 사용되는 양상을 보자면, intent는 크게는 domain의 하위 분야이고, intent 아래에는 argument와 item이 자리잡고 있는 것으로 보입니다. 예컨대, Haghani et al. (2018)에서는 다음과 같은 구조를 보여줍니다.
+
+- “can you set an alarm for 2 p.m.” : <DOMAIN><PRODUCTIVITY><INTENT><SET ALARM><DATETIME>2 p.m
+  
+이는, Productivity라는 domain의 발화로, Set alarm이라는 intent를 가지며, 그에 따른 item인 Datetime이 2 p.m인 문장이라는 것을 의미합니다. 여기서 intent는 Set alarm이라는 하나의 키워드로 결정되었지만, semantic role labeling에서의 argument 개념으로 본다면, set이라는 verb에 해당하는 argument로 alarm이 왔다고 볼 수 있을 것이고, set something이라는 intent로 별도로 분류할 수도 있겠지요. 이처럼 intent의 파악은 데이터셋이 구축된 방법 및 그 토픽/도메인/목적 등에 영향을 많이 받습니다. 따라서 지금까지 우리가 논의해 왔던 typology와는 좀 거리가 있습니다. 그럼에도 engineer의 관점에서는 speech act보다 훨씬 다양하게, 자세히, 그리고 산업적으로 다뤄지고 있는 분야이고, 현실에서의 활용성 또한 높습니다. 일단 당장 질문인지 요구인지 서술인지 구별하는 것도 중요하지만, 결국 하고 싶은 것은 그 발화를 통해 어떤 것을 하게 만드는가가 중요한 것 아니겠어요? 이 점이 기존의 화행 연구와 산업에서의 intent identification / slot-filling 간에 발생할 수 있는 간극이며, 화행 연구가 linguistic typology, formal semantics, context 등의 문제에서 자유롭지 못한 상황에서도 산업에서의 의도파악 연구가 활발하게 진행되고 있을 수 있는 이유이기도 합니다. 이 점은 한국어 연구에서도 마찬가지로, 한국어 화행 연구는 주로 식당/영화 예약 데이터베이스에서의 의도 파악을 기반으로 많이 진행되었고, intent 파악 연구는 현시각에도 각 기업에서 열정적으로 데이터셋을 만들고 slot-filling을 하고 있지만, 일반언어학적인 화행 논의와는 거리와 있는 것이 사실입니다. 이 과정에서, 일반언어학적인, 혹은 typological한 화행 연구가 한국어에서 철학적/화용론적인 연구를 넘어 어떤 식으로 유용될 수 있을까? 저는 이 점이 궁금했습니다.
+
 ## Syntactic Ambiguity Resolution
 
 ## Sentence Similarity
