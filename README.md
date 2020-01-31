@@ -135,7 +135,11 @@ Levinson (1983)은 이러한 관찰들로부터 **문자적 힘 가설**(literal
 
 ### Portner - 형식 의미론적 접근
 
-Portner의, 형식 의미론을 기반으로 한 접근은, 제가 제일 많이 이용한 방식이기도 하고, 사실 이러한 해석에서 벗어나기도 쉽지 않을 만큼 문제를 추상화시켜둔 방법입니다. 바로 **clause type을 화행의 관점에서 형식적으로 정의하는 것**입니다. 일단 그러기 위해서는 clause type이 어떻게 유형화될 수 있는지 먼저 알아봐야 하겠습니다. 문장 유형은 결국 한국어로 따지면 종결 어미를 보는 것이고, 영어로 따지면 어두에 의문사가 오는 의문문(interrogative)인지 그렇지 않은 평서문(declarative)인지, 혹은 covert subject로 시작하는 명령문(imperative)인지 보는 것으로, 문법적으로 결정할 수 있는 굉장히 straightforward한 절차입니다. Portner (2004)은 각각이 다음과 같이 형식의미론적으로 정의될 수 있다고 정리합니다.
+Portner의, 형식 의미론을 기반으로 한 접근은, 제가 제일 많이 이용한 방식이기도 하고, 사실 이러한 해석에서 벗어나기도 쉽지 않을 만큼 문제를 추상화시켜둔 방법입니다. 바로 **clause type을 화행의 관점에서 형식적으로 정의하는 것**입니다. 일단 그러기 위해서는 clause type이 어떻게 유형화될 수 있는지 먼저 알아봐야 하겠습니다. 문장 유형은 결국 한국어로 따지면 종결 어미를 보는 것이고, 영어로 따지면 어두에 의문사가 오는 의문문(interrogative)인지 그렇지 않은 평서문(declarative)인지, 혹은 covert subject로 시작하는 명령문(imperative)인지 보는 것으로, 문법적으로 결정할 수 있는 굉장히 straightforward한 절차입니다. 이는 Sadock and Zwicky (1985)에서 통사론적으로 다루어진 바 있으나, Portner (2004)는 각각이 다음과 같이 형식의미론적으로 정의될 수 있다고 정리합니다.
+
+<p align="center">
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2004%20portner.png" width="500"><br/>
+    <i>문장 유형의 형식의미론적 접근</i>
 
 - **평서문(declarative)**: Proposition (p)의 모음을 청자와 화자의 공통 지식(common ground, CG)에 더하는 과정. 이 경우 sentencial force는 assertion으로 정의
 
@@ -151,11 +155,19 @@ Portner의, 형식 의미론을 기반으로 한 접근은, 제가 제일 많이
 
 - F를 제외한 다른 update function은 universal하지 않고 F가 preferred되는데, 그 이유는 F가 sentence의 force를 결정하는 데 사용될 수 있다면, 반드시 사용된다는 점에서 그러함 (이 점은 각주에서 Portner가 widening이라는 다른 update function을 이용해 exclamation을 설명한다는 점에서, 아주 완벽한 claim은 아닌 듯하긴 합니다)
 
-이러한 내용입니다. 깊게 들어가면 훨씬 어려운 내용이지만, 일단 저는 평서문, 의문문, 그리고 명령문이 가진 성질이 각각 statement, question, command라는 illocutionary act들을 설명하는 데에 유용하게 사용될 것이라고 기대하였고, 실제 한국어 의도파악 데이터셋 구축을 하는 데에 이를 활용해볼 수 있을 것이라는 생각을 하였습니다. 즉, 위에서 본 CG와 QS, 그리고 TDL을 화행을 결정하는 기준으로 사용하면 어떨까요? 그리고, 화행의 결정 과정에서 지금까지 주로 논의되었던 illocutionary act뿐 아니라 perlocutionary act까지 고려한다면 어떻게 될까요? 이렇게 생각해 본다면, 어떤 다른 factor들을 생각해볼 수 있을 것이며, 이것보다 훨씬 더 자세하게 화행을 분류하는 기준으로는 어떤 것이 있을까요? 또 한국어라면, 다른 언어들, 특히 영어와 다른 어떤 특징을 텍스트 분류 과정에서 생각해볼 수 있을까요?
+이러한 내용입니다. 깊게 들어가면 훨씬 어려운 내용이지만, 일단 저는 평서문, 의문문, 그리고 명령문이 가진 성질이 각각 statement, question, command라는 illocutionary act들을 설명하는 데에 유용하게 사용될 것이라고 기대하였고, 실제 한국어 의도파악 데이터셋 구축을 하는 데에 이를 활용해볼 수 있을 것이라는 생각을 하였습니다. 
+
+- 즉, 위에서 본 CG와 QS, 그리고 TDL을 화행을 결정하는 기준으로 사용하면 어떨까요? 
+
+- 그리고, 화행의 결정 과정에서 지금까지 주로 논의되었던 illocutionary act뿐 아니라 perlocutionary act까지 고려한다면 어떻게 될까요? 
+
+- 이렇게 생각해 본다면, 어떤 다른 factor들을 생각해볼 수 있을 것이며, 이것보다 훨씬 더 자세하게 화행을 분류하는 기준으로는 어떤 것이 있을까요? 
+
+- 또 한국어라면, 다른 언어들, 특히 영어와 다른 어떤 특징을 텍스트 분류 과정에서 생각해볼 수 있을까요?
 
 ### 그 외 -  Allwood, Stolckes et al., Bunt et al.
 
-Portner과 비슷한 견지에서, Allwood는 communicative function이라는 개념을 고려하여 좀 더 정성적으로 상기의 개념을 설명합니다. 하지만 여기서 추가적으로 고려되는 내용이 있는데, 이 과정에서, 발화 과정에서 expressive factor와 evocative factor을 함께 고려합니다. Expressive라는 것은 화자 입장에서의 attitude, 그리고 evocative라는 것은 청자로부터의 reaction을 지칭하게 됩니다. Statement와 exclamation에서는 expressive가 대체로 중시되지만, question과 request에서는 그 반대의 현상이 나타납니다.
+Portner과 비슷한 견지에서, Allwood (2000)는 communicative function이라는 개념을 고려하여 좀 더 정성적으로 상기의 개념을 설명합니다. 하지만 여기서 추가적으로 고려되는 내용이 있는데, 이 과정에서, 발화 과정에서 expressive factor와 evocative factor을 함께 고려합니다. Expressive라는 것은 화자 입장에서의 attitude, 그리고 evocative라는 것은 청자로부터의 reaction을 지칭하게 됩니다. Statement와 exclamation에서는 expressive가 대체로 중시되지만, question과 request에서는 그 반대의 현상이 나타납니다.
 
 - **서술(Statement)** - *Expressive*: Belief / *Evocative*: (that listener shares) Belief judjment 
 
@@ -167,9 +179,27 @@ Portner과 비슷한 견지에서, Allwood는 communicative function이라는 �
 
 물론 여기서도, 발화 하나에서 여러 개의 act에 대한 해석이 나올 수 있다는 점은 변함이 없습니다. 하지만, Portner의 접근에서도 그리고 Allwood의 접근에서도, 이러한 네 가지 유형의 발화를 통사-의미론적, 혹은 화용론적으로 나올 수 있는 발화의 유형들로 생각한다는 것은, 이에 대한 세분화된 speech act의 정의를 추가적으로 생각할 수는 있겠지만, 이 카테고리에 속하지 않는 verbal expression들이 그렇게 많을 것이라고는 생각되지 않네요. 이는 speaker-oriented impact와 addressee-oriented impact를 모두 고려하는 Beyssade and Mandarin (2006)에서도 확인할 수 있습니다. 거기서도 exclamation은 별도의 addressee-oriented impact가 없는 독특한 문장 유형으로 등장하구요.
 
-이쯤 되면 우리는 다시 한번, 이보다 세분화된 speech act의 구별은 어떤 것인지 생각해볼 필요가 있습니다. 가장 대표적인 것은 Switchboard 전화음성 DB의 각 script에 DASML 기반의 42개의 dialog act를 태깅한 Stolcke et al.의 연구입니다. 이 act에는 가장 많은 비율을 차지하는(36%) statement부터 19%를 차지하는 backchannel/acknowledge(uh-huh 등의 동조), 13%를 차지하는 opinion(statement보다 조금 더 주관성이 개입되는 경우) 등이 포함되며, 의외로 질문/요구의 발화는 합쳐서 10퍼센트도 안 될 정도로 큰 비율을 차지하지 못합니다. 오히려 backchennel이나 yes/no answer 등이 훨씬 많은 비중을 차지하고 있지요. 이는 해당 코퍼스가 어떤 scripted되지 않은, 자연스러운 전화 코퍼스의 전사 자료인 것에 많이 기인합니다. 실제로 우리가 일상 생활에서 대화를 하면서, 질문이나 요구의 비율이 그렇게 높지는 않습니다. 오히려 인공지능 비서나 스마트 스피커 등을 사용하면 모르겠지만요. 
+<p align="center">
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2006%20beyssade.PNG" width="500"><br/>
+    <i>"Disentangling Speaker’s Commitment from Speaker’s Call on Addressee" 라는 논문 제목과는 어떻게 관계가 있을까요?</i>
+
+이쯤 되면 우리는 다시 한번, 이보다 세분화된 speech act의 구별은 어떤 것인지 생각해볼 필요가 있습니다. 가장 대표적인 것은 Switchboard 전화음성 DB의 각 script에 DAMSL (Dialog Act Markup in Several Layers, Allen and Core, 1997) 기반의 42개의 dialog act를 태깅한 Stolcke et al. (2000)의 연구입니다. 
+
+<p align="center">
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1997%20allen.PNG" width="500"><br/>
+    <i>어노테이션 작업 처음 할 때 누더기 만들지 말고 진작에 참고할걸...</i>
+
+이 act에는 가장 많은 비율을 차지하는(36%) statement부터 19%를 차지하는 backchannel/acknowledge(uh-huh 등의 동조), 13%를 차지하는 opinion(statement보다 조금 더 주관성이 개입되는 경우) 등이 포함되며, 의외로 질문/요구의 발화는 합쳐서 10퍼센트도 안 될 정도로 큰 비율을 차지하지 못합니다. 오히려 backchennel이나 yes/no answer 등이 훨씬 많은 비중을 차지하고 있지요. 이는 해당 코퍼스가 어떤 scripted되지 않은, 자연스러운 전화 코퍼스의 전사 자료인 것에 많이 기인합니다. 실제로 우리가 일상 생활에서 대화를 하면서, 질문이나 요구의 비율이 그렇게 높지는 않습니다. 오히려 인공지능 비서나 스마트 스피커 등을 사용하면 모르겠지만요. 
+
+<p align="center">
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2000%20stolcke.png" width="500"><br/>
+    <i>Stolckes et al. (2000)에 등장하는 dialog. 영어와 한국어의 dialog act는 같지 않습니다...</i>
 
 이러한 불균형에도 불구하고, 각 발화의 개수는 그렇게 적지 않습니다. 이는 전체 발화가 약 20만 개이기 때문입니다. 그래도 태깅이 상당히 높은 정도의 Fleiss kappa = 0.8 이라는 주석자간 일치도를 얻었다는 사실은, guideline이 상당히 잘 만들어졌고 그만큼 정교한 typology라는 것을 의미합니다. 물론 저는 statement와 opinion의 관계, 혹은 conventional expressions를 question/command로 볼지의 여부, self-talk와 서술/감탄 등의 경계가 여전히 모호하다고 생각하지만, 그래도 적어도 영어에서는 그러한 boundary에 대해 어느정도 화자들 간의 agreement가 이루어졌다는 것을 알 수 있었습니다.
+
+<p align="center">
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2010%20bunt.png" width="500"><br/>
+    <i>Bunt et al. (2010)에 제시된 communicative function의 taxonomy. 사실 이거 다 이해하고 tagging할 엄두는 안 나네요</i>
 
 이보다 조금 더 세분화된 최근의 국제 공인(ISO) 주석 방식은 좀 더 세분화된 communicative funciton에 기반한 태깅을 제시합니다. Communicative function은 크게 4가지의 general-purpose functions와 8가지의 dimension-specific functions로 나뉘는데요, 각각은 다시 다음과 같이 세분화됩니다.
 
