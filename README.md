@@ -78,7 +78,7 @@ Austin이 처음에 수행문과 진술문로 분류해 두었던 발화의 체�
 - **언향적 행위(perlocutionary act)**: 발화 행위로 인해 청자에게 결과로써 나타날 만한 행위
 
 <p align="center">
-    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1962%20austic%20illo.png" width="500"><br/>
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1962%20austic%20illo.png" width="600"><br/>
     <i>언표적 행위, 언표내적 행위, 언향적 행위</i>
 
 **언표적 행위**는 사실 매우 명확합니다. 우리가 일상 생활에서 발화(여기서는 speak)를 하면 그것이 언표적 행위이고, 그 과정을 지칭하는 데에는 다른 행위들이 개입할 필요가 없습니다. 좀 더 자세히는 언표적 행위가 phonic act(음성 발화 시에는 물리적인 sound를 내고, 글을 쓸 때에는 text를 작성하는 것), phatic act(소리나 텍스트를 조합하여 말로써 성립하는 시퀀스로 만드는 것), 그리고 rhetic act(발화가 어떠한 의미를 갖게 하는 작업)으로 나눠진다고 하지만, 여기서는 그것을 따로 구별하지 않을 예정입니다. 좀 더 제가 주목하고 싶었던 것은 언표내적 행위와 언향적 행위의 개념입니다.
@@ -93,7 +93,7 @@ Austin이 처음에 수행문과 진술문로 분류해 두었던 발화의 체�
 
 많은 문장들이 그렇겠지만, 의문사를 필두로 하는 문장은 컨텍스트와 뉘앙스에 따라 천차만별의 해석이 가능해지게 됩니다. 상사가 아침에 지각한 사원에게 하는 말이라면 질책이 될 것이고, 평소에 늦지 않던 상사가 늦게 왔다면 의외라는 감정의 표현, 그리고 동시에 실제 늦은 이유를 묻는 것일 수도 있을 것입니다. 또한 뉘앙스에 따라, 많은 상황에서는 질책과 동시에 다시 늦지 말라는 경고, 금지의 표현이 될 수도 있겠죠. 또한 극단적인 경우로, 망자를 뒤늦게 접했을 때 슬픔을 표현하는 발화일 수도 있습니다. 물론 여러 가지의 발화가 동시에 한 가지 언표내적 행위를 의도할 수도 있구요. 언향적 행위는, 저 말을 들은 청자가 수행할 만한 행위들을 의미합니다. 이는 언표내적 행위와 연관될 수 있지만, 같은 개념은 아닙니다. 만약 언표내적 행위가 '질책'이었다면 언향적 행위는 '반성'이 될 수 있겠으며, '놀람'이라면 '진정, 해명' 등이 될 수 있겠지요. 물론 화자가 여럿이라거나(성명문), 청자가 없거나(독백; 청자=화자인 경우 포함), 여럿인 경우(대담) 등은 또 다른 양상으로 언표내적 행위 및 언향적 행위가 해석되어야 할 것입니다.
 
-Searle은 이러한 speech act들 중 illocutionary act, 즉 언표내적 행위를 크게 다섯 가지로 유형화합니다.
+Searle (1976)은 이러한 speech act들 중 illocutionary act, 즉 언표내적 행위를 크게 다섯 가지로 유형화합니다.
 
 - **대언 행위** Representatives: Austin의 진술문에 해당. 화자의 믿음을 전달하고 진리치를 갖는 명제를 표현. 결론, 보고, 진술 등을 포함.
 
@@ -112,7 +112,7 @@ Searle은 이러한 speech act들 중 illocutionary act, 즉 언표내적 행위
 그래도 확실히 해야 할 점이 있다면, 화행의 개념은 '문장 유형'이라는 통사적 개념과는 연관은 있으나 같은 개념은 아니라는 것입니다. 이 점은 의도파악 데이터셋을 구축할 때 종종 간과되는 점이기도 합니다. 예컨대, '내일 아침 여덟 시에 화자를 전화로 깨워주기'라는 부탁을 하는 방식에는 여러 가지가 있습니다.
 
 <p align="center">
-    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1982%20levinson.png" width="500"><br/>
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1982%20levinson.png" width="550"><br/>
     <i>전화를 깨워 달라고 하고 싶다면?</i>
 
 *전화 좀 부탁해 내일 아침에 잊지마 여덟시야*
@@ -186,19 +186,19 @@ Portner과 비슷한 견지에서, Allwood (2000)는 communicative function이�
 이쯤 되면 우리는 다시 한번, 이보다 세분화된 speech act의 구별은 어떤 것인지 생각해볼 필요가 있습니다. 가장 대표적인 것은 Switchboard 전화음성 DB의 각 script에 DAMSL (Dialog Act Markup in Several Layers, Allen and Core, 1997) 기반의 42개의 dialog act를 태깅한 Stolcke et al. (2000)의 연구입니다. 
 
 <p align="center">
-    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1997%20allen.PNG" width="500"><br/>
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1997%20allen.PNG" width="700"><br/>
     <i>어노테이션 작업 처음 할 때 누더기 만들지 말고 진작에 참고할걸...</i>
 
 이 act에는 가장 많은 비율을 차지하는(36%) statement부터 19%를 차지하는 backchannel/acknowledge(uh-huh 등의 동조), 13%를 차지하는 opinion(statement보다 조금 더 주관성이 개입되는 경우) 등이 포함되며, 의외로 질문/요구의 발화는 합쳐서 10퍼센트도 안 될 정도로 큰 비율을 차지하지 못합니다. 오히려 backchennel이나 yes/no answer 등이 훨씬 많은 비중을 차지하고 있지요. 이는 해당 코퍼스가 어떤 scripted되지 않은, 자연스러운 전화 코퍼스의 전사 자료인 것에 많이 기인합니다. 실제로 우리가 일상 생활에서 대화를 하면서, 질문이나 요구의 비율이 그렇게 높지는 않습니다. 오히려 인공지능 비서나 스마트 스피커 등을 사용하면 모르겠지만요. 
 
 <p align="center">
-    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2000%20stolcke.png" width="500"><br/>
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2000%20stolcke.png" width="600"><br/>
     <i>Stolckes et al. (2000)에 등장하는 dialog. 영어와 한국어의 dialog act는 같지 않습니다...</i>
 
 이러한 불균형에도 불구하고, 각 발화의 개수는 그렇게 적지 않습니다. 이는 전체 발화가 약 20만 개이기 때문입니다. 그래도 태깅이 상당히 높은 정도의 Fleiss kappa = 0.8 이라는 주석자간 일치도를 얻었다는 사실은, guideline이 상당히 잘 만들어졌고 그만큼 정교한 typology라는 것을 의미합니다. 물론 저는 statement와 opinion의 관계, 혹은 conventional expressions를 question/command로 볼지의 여부, self-talk와 서술/감탄 등의 경계가 여전히 모호하다고 생각하지만, 그래도 적어도 영어에서는 그러한 boundary에 대해 어느정도 화자들 간의 agreement가 이루어졌다는 것을 알 수 있었습니다.
 
 <p align="center">
-    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2010%20bunt.png" width="500"><br/>
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/2010%20bunt.png" width="600"><br/>
     <i>Bunt et al. (2010)에 제시된 communicative function의 taxonomy. 사실 이거 다 이해하고 tagging할 엄두는 안 나네요</i>
 
 이보다 조금 더 세분화된 최근의 국제 공인(ISO) 주석 방식은 좀 더 세분화된 communicative funciton에 기반한 태깅을 제시합니다. Communicative function은 크게 4가지의 general-purpose functions와 8가지의 dimension-specific functions로 나뉘는데요, 각각은 다시 다음과 같이 세분화됩니다.
@@ -211,15 +211,23 @@ Portner과 비슷한 견지에서, Allwood (2000)는 communicative function이�
 
 ### 화행과 의도, 그리고 Intent
 
-여태까지는 화행에 대해 설명했습니다. 화행은 speech act이고, 때로는 dialog act로 불립니다. speech act 이든 dialog act이든, 어떤 특정한 목적이 있는(goal-oriented) 것이라기보다는, 인간과 인간, 혹은 인간과 기계 사이의 대화에서, 혹은 일반적인 발화 상황에서까지 발생할 수 있는 경우들을 모두 모델링하기 위한 유형 체계로, 특정 토픽에 제한되지 않는다는 공통적인 특징이 있습니다. 하지만 헷갈리게도, 종종 Intention이라는 표현은 speech act와 혼용되곤 합니다. 좀 더 자세히는, Allen의 Analyzing Intention in Utterances에서 알 수 있듯 speech act보다는 조금 더 구체적인 어떤 의도된 결과물을 지칭하기도 하고, speech act 정도로 일반화된 개념을 지칭하는 경우도 있습니다.
+여태까지는 화행에 대해 설명했습니다. 화행은 speech act이고, 때로는 dialog act로 불립니다. speech act 이든 dialog act이든, 어떤 특정한 목적이 있는(goal-oriented) 것이라기보다는, 인간과 인간, 혹은 인간과 기계 사이의 대화에서, 혹은 일반적인 발화 상황에서까지 발생할 수 있는 경우들을 모두 모델링하기 위한 유형 체계로, 특정 토픽에 제한되지 않는다는 공통적인 특징이 있습니다. 하지만 헷갈리게도, 종종 Intention이라는 표현은 speech act와 혼용되곤 합니다. 좀 더 자세히는, Allen의 Analyzing Intention in Utterances (1980)에서도 알 수 있듯 speech act보다는 조금 더 구체적인 어떤 의도된 결과물을 지칭하기도 하고, speech act 정도로 일반화된 개념을 지칭하는 경우도 있습니다.
 
 이에 반해, intent라는 표현은 자연어 처리 분야, 특히 goal-oriented task에서 훨씬 많이 사용되는 표현입니다. 여기서의 '의도'는 좀 더 그 목적이 명확해요. 예컨대, '저기 있는 물건 좀 가져다 주세요'는 기본적으로 요청이지만, '심부름'이라는 intent를 가졌다고 할 수 있겠죠. 또, '내일 강변 cgv 세시 반에 겨울왕국 2 두자리 예약 부탁해요'는 비슷한 원리로 '예약'이라는 목적을 갖고 있다고 볼 수 있을 겁니다. 이러한 intent의 명명법은 물론 task에 따라 달라지게 됩니다. 이것이 스마트 비서가 아닌 검색 서비스라면, 그래서 사용자가 '지금 서울 비 오나?' 라고 묻는다면, 그 의도는 날씨에 대한 질문이 되겠지요.
 
+<p align="center">
+    <image src="https://github.com/warnikchow/omniKSA/blob/master/images/1990%20atis.jpg" width="500"><br/>
+    <i>항공관련 대화를 다루는 ATIS dataset (Hemphill et al., 1990)에서의 발화 샘플. IOB (inside-out-beginning) 으로 slot들이 표기되어 있다. 그림은 Qiu et al. (2018)에서 발췌</i>
+
 이 intent의 표현은 종종 다른 term들로 대체되기도 합니다. 화행에 대한 분류 자체에도 항상 논란이 있어왔던 만큼, 엔지니어링에 좀 더 가까운 intent identification이 그 명확한 term에 대한 약속이 없는 것은 어쩌면 당연한 것 같습니다. 대기업과 빅 그룹이 사용하면 공식 term이 되는 세상이지요 ㅎㅎ 어쨌든, 일반적으로 사용되는 양상을 보자면, intent는 크게는 domain의 하위 분야이고, intent 아래에는 argument와 item이 자리잡고 있는 것으로 보입니다. 예컨대, Haghani et al. (2018)에서는 다음과 같은 구조를 보여줍니다.
 
-- **“can you set an alarm for 2 p.m.”** : <DOMAIN><PRODUCTIVITY><INTENT><SET ALARM><DATETIME>2 p.m
+- **“can you set an alarm for 2 p.m.”** : **DOMAIN** - PRODUCTIVITY, **INTENT** - SET ALARM, **DATETIME** - 2 p.m
   
-이는, Productivity라는 domain의 발화로, Set alarm이라는 intent를 가지며, 그에 따른 item인 Datetime이 2 p.m인 문장이라는 것을 의미합니다. 여기서 intent는 Set alarm이라는 하나의 키워드로 결정되었지만, semantic role labeling에서의 argument 개념으로 본다면, set이라는 verb에 해당하는 argument로 alarm이 왔다고 볼 수 있을 것이고, set something이라는 intent로 별도로 분류할 수도 있겠지요. 이처럼 intent의 파악은 데이터셋이 구축된 방법 및 그 토픽/도메인/목적 등에 영향을 많이 받습니다. 따라서 지금까지 우리가 논의해 왔던 typology와는 좀 거리가 있습니다. 그럼에도 engineer의 관점에서는 speech act보다 훨씬 다양하게, 자세히, 그리고 산업적으로 다뤄지고 있는 분야이고, 현실에서의 활용성 또한 높습니다. 일단 당장 질문인지 요구인지 서술인지 구별하는 것도 중요하지만, 결국 하고 싶은 것은 그 발화를 통해 어떤 것을 하게 만드는가가 중요한 것 아니겠어요? 이 점이 기존의 화행 연구와 산업에서의 intent identification / slot-filling 간에 발생할 수 있는 간극이며, 화행 연구가 linguistic typology, formal semantics, context 등의 문제에서 자유롭지 못한 상황에서도 산업에서의 의도파악 연구가 활발하게 진행되고 있을 수 있는 이유이기도 합니다. 이 점은 한국어 연구에서도 마찬가지로, 한국어 화행 연구는 주로 식당/영화 예약 데이터베이스에서의 의도 파악을 기반으로 많이 진행되었고, intent 파악 연구는 현시각에도 각 기업에서 열정적으로 데이터셋을 만들고 slot-filling을 하고 있지만, 일반언어학적인 화행 논의와는 거리와 있는 것이 사실입니다. 이 과정에서, 일반언어학적인, 혹은 typological한 화행 연구가 한국어에서 철학적/화용론적인 연구를 넘어 어떤 식으로 유용될 수 있을까? 저는 이 점이 궁금했습니다.
+이는, Productivity라는 domain의 발화로, Set alarm이라는 intent를 가지며, 그에 따른 item인 Datetime이 2 p.m인 문장이라는 것을 의미합니다. 여기서 intent는 Set alarm이라는 하나의 키워드로 결정되었지만, semantic role labeling에서의 argument 개념으로 본다면, set이라는 verb에 해당하는 argument로 alarm이 왔다고 볼 수 있을 것이고, set something이라는 intent로 별도로 분류할 수도 있겠지요. 이처럼 intent의 파악은 데이터셋이 구축된 방법 및 그 토픽/도메인/목적 등에 영향을 많이 받습니다. 따라서 지금까지 우리가 논의해 왔던 typology와는 좀 거리가 있습니다. 
+
+그럼에도 불구하고 engineer의 관점에서 intent는 speech act보다 훨씬 다양하게, 자세히, 그리고 산업적으로 다뤄지고 있으며, 현실에서의 활용성 또한 높습니다. 일단 당장 질문인지 요구인지 서술인지 구별하는 것도 중요하지만, 결국 **하고 싶은 것은 그 발화를 통해 어떤 것을 하게 만드는가**가 중요한 것 아니겠어요? 이 점이 기존의 화행 연구와 산업에서의 intent identification / slot-filling 간에 발생할 수 있는 간극이며, 화행 연구가 linguistic typology, formal semantics, context 등의 문제에서 자유롭지 못한 상황에서도 산업에서의 의도파악 연구가 활발하게 진행되고 있을 수 있는 이유이기도 합니다. 
+
+이 점은 한국어 연구에서도 마찬가지입니다. 한국어 화행 연구는 주로 식당/영화 예약 데이터베이스에서의 의도 파악을 기반으로 많이 진행되었고, intent 파악 연구는 현시각에도 각 기업에서 열정적으로 데이터셋을 만들고 slot-filling을 하고 있지만, 일반언어학적인 화행 논의와는 거리와 있는 것이 사실입니다. 이 과정에서, 일반언어학적인, 혹은 typological한 화행 연구가 한국어에서 철학적/화용론적인 연구를 넘어 어떤 식으로 유용될 수 있을까? 저는 이 점이 궁금했습니다.
 
 ### Revisiting perlocutionary act? 응대 혹은 비응대
 
