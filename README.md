@@ -11,9 +11,9 @@
 
 - **한국어 중의성 구문 음성 화행 분류 데이터셋: [ProSem](https://github.com/warnikchow/prosem)** (7 Classes, 7K Speech Utterances)
 
-- **한국어 질문 및 요구 문장의 의도 및 토픽 유사도 데이터셋: ParaKQC** (550K Pairs, To be added)
+- **한국어 질문 및 요구 문장의 의도 및 토픽 유사도 데이터셋: [ParaKQC](https://github.com/warnikchow/paraKQC)** (5 Classes, 550K Sentence Pairs)
 
-- **한국어 질문 및 요구 문장의 원활한 시맨틱 파싱을 위한 논항 추출 데이터셋: [SAE4K](https://github.com/warnikchow/sae4k)** (50K Pairs)
+- **한국어 질문 및 요구 문장의 원활한 시맨틱 파싱을 위한 논항 추출 데이터셋: [SAE4K](https://github.com/warnikchow/sae4k)** (6 Classes, 50K Sentence-Argument Pairs)
 
 ## Speech Act
 
